@@ -12,9 +12,8 @@ export const Nav = () => {
   return (
     <>
       <nav>
-        <figure onClick={() => window.scroll(0, 0)}>
+        <figure className="click" onClick={() => window.scroll(0, 0)}>
           <img
-            className="click"
             data-aos="fade-down"
             data-aos-delay="100"
             id="personal-logo"
@@ -80,6 +79,7 @@ export const Nav = () => {
           >
             <div
               className="
+                click
                 nav__link--anchor
                 link__hover-effect
                 link__hover-effect--black

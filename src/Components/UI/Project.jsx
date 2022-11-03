@@ -12,10 +12,10 @@ export const Project = (project) => {
           <h4 className="project__description--sub-title">{project.stack}</h4>
           <p className="project__description--para">{project.description}</p>
           <div className="project__description--links">
-            <a href={project.github} className="project__description--link">
+            <a href={project.github} target="_blank" className="project__description--link">
               <FaGithub />
             </a>
-            <a href={project.link} className="project__description--link">
+            <a href={project.link} target="_blank" className="project__description--link">
               <FaLink />
             </a>
           </div>
