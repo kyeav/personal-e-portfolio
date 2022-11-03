@@ -25,7 +25,7 @@ export const Header = () => {
             Hey,
           </h1>
           <h1 className="title orange">{TypingEffect()}</h1>
-          <p data-aos="fade-up" data-aos-delay="150" className="header__para">
+          <p data-aos-useClassNames="true" data-aos="fade-up" data-aos-delay="150" className="header__para">
             I'm a <b className="orange">Frontend Software Engineer</b> with a
             strong passion for building web applications with great user
             experiences.
@@ -35,7 +35,7 @@ export const Header = () => {
               about me.
             </b>
           </p>
-          <div className="social__list">
+          <div data-aos="fade-up" data-aos-delay="150" className="social__list">
             {socialLinks.map((link) => {
               return (
                 <a

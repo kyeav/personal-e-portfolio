@@ -1,4 +1,4 @@
-import '../index.css'
+import "../index.css";
 import { useContext } from "react";
 import { modalContext } from "../Context/ModalContext";
 import personalLogo from "../assets/logo.svg";
@@ -12,11 +12,23 @@ export const Nav = () => {
   return (
     <>
       <nav>
-        <figure>
-          <img data-aos="fade-down" data-aos-delay="100" id="personal-logo" src={personalLogo} alt="" />
+        <figure onClick={() => window.scroll(0, 0)}>
+          <img
+            className="click"
+            data-aos="fade-down"
+            data-aos-delay="100"
+            id="personal-logo"
+            src={personalLogo}
+            alt=""
+          />
         </figure>
         <ul className="nav__link--list">
-          <li data-aos="fade-down" data-aos-delay="100" className="nav__link" onclick={toggleModal}>
+          <li
+            data-aos="fade-down"
+            data-aos-delay="100"
+            className="nav__link"
+            onClick={toggleModal}
+          >
             <Link
               to="/"
               className="
@@ -40,9 +52,15 @@ export const Nav = () => {
               Projects
             </a>
           </li>
-          <li data-aos="fade-down" data-aos-delay="100" className="nav__link" onclick={toggleModal}>
+          <li
+            data-aos="fade-down"
+            data-aos-delay="100"
+            className="nav__link"
+            onClick={toggleModal}
+          >
             <Link
               to="/"
+              onClick={toggleModal}
               className="
                 nav__link--anchor
                 link__hover-effect
@@ -53,9 +71,10 @@ export const Nav = () => {
             </Link>
           </li>
           <li
-            data-aos="fade-up" data-aos-delay="150"
+            data-aos="fade-up"
+            data-aos-delay="150"
             className="nav__link click"
-            onclick={() =>
+            onClick={() =>
               setContrastToggle((prev) => (prev === "dark" ? "light" : "dark"))
             }
           >

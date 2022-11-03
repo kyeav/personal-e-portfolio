@@ -1,3 +1,4 @@
+import '../index.css'
 import { useCallback, useContext, useRef, useState } from "react";
 import { FaEnvelope, FaSpinner, FaTimes } from "react-icons/fa";
 import { modalContext } from "../Context/ModalContext";
@@ -49,9 +50,9 @@ export const Modal = () => {
         <FaEnvelope />
       </button>
 
-      <Link to="projects" className="scroll">
+      <a href="#projects" className="scroll">
         <div className="scroll__icon click"></div>
-      </Link>
+      </a>
 
       <div className="modal">
         <div className="modal__half modal__about">

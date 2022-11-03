@@ -2,6 +2,8 @@ import { useCallback } from "react";
 import { Nav } from "../Components/Nav";
 import { Header } from '../Components/Header'
 import { Modal } from '../Components/Modal'
+import { Projects } from '../Components/Projects'
+import { Footer } from '../Components/Footer'
 import '../index.css'
 
 export const Home = () => {
@@ -27,6 +29,8 @@ export const Home = () => {
         <Header />
         <Modal />
       </section>
+      <Projects />
+      <Footer />
     </>
   );
 };
