@@ -1,5 +1,5 @@
 import { useContext } from "react";
-import personalLogo from "../assets/logo.svg";
+import personalLogo from "../assets/logo.png";
 import { modalContext } from "../Context/ModalContext";
 import { Link } from 'react-router-dom'
 

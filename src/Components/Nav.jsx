@@ -1,7 +1,7 @@
 import "../index.css";
 import { useContext } from "react";
 import { modalContext } from "../Context/ModalContext";
-import personalLogo from "../assets/logo.svg";
+import personalLogo from "../assets/logo.png";
 import { FaAdjust } from "react-icons/fa";
 import { squigglyImages } from "../Data/squigglyImagesData";
 import { Link } from "react-router-dom";
