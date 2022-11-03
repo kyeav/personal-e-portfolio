@@ -1,7 +1,7 @@
 import { useContext } from "react";
 import personalLogo from "../assets/logo.png";
 import { modalContext } from "../Context/ModalContext";
-import { Link } from 'react-router-dom'
+import { Link } from "react-router-dom";
 
 export const Footer = () => {
   const { toggleModal } = useContext(modalContext);
@@ -11,7 +11,11 @@ export const Footer = () => {
       <div className="container">
         <div className="row footer__row">
           <figure onClick={() => window.scrollTo(0, 0)}>
-            <img className="footer__logo--img click" src={personalLogo} alt="" />
+            <img
+              className="footer__logo--img click"
+              src={personalLogo}
+              alt=""
+            />
           </figure>
           <div className="footer__social--list">
             <a

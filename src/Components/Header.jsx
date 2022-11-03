@@ -25,9 +25,17 @@ export const Header = () => {
             Hey,
           </h1>
           <h1 className="title orange">{TypingEffect()}</h1>
-          <p data-aos-useClassNames="true" data-aos="fade-up" data-aos-delay="150" className="header__para">
-            I'm a <b className="orange">Frontend Software Engineer</b> with a
-            strong passion for building web applications with great user
+          <p
+            data-aos-useClassNames="true"
+            data-aos="fade-up"
+            data-aos-delay="150"
+            className="header__para"
+          >
+            I'm a{" "}
+            <b className="orange">
+              Frontend Developer Software Engineer UI/UX Designer
+            </b>{" "}
+            with a strong passion for building web applications with great user
             experiences.
             <br />
             Here's a bit more{" "}
@@ -49,10 +57,6 @@ export const Header = () => {
               );
             })}
           </div>
-        </div>
-
-        <div className="header__content--right">
-          {/* tag cloud */}
         </div>
       </header>
     </>
