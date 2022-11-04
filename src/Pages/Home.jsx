@@ -1,10 +1,11 @@
 import { useCallback } from "react";
 import { Nav } from "../Components/Nav";
-import { Header } from '../Components/Header'
-import { Modal } from '../Components/Modal'
-import { Projects } from '../Components/Projects'
-import { Footer } from '../Components/Footer'
-import '../index.css'
+import { Header } from "../Components/Header";
+import { Body } from "../Components/Body";
+import { Modal } from "../Components/Modal";
+import { Projects } from "../Components/Projects";
+import { Footer } from "../Components/Footer";
+import "../index.css";
 
 export const Home = () => {
   const moveBackground = useCallback((event) => {
@@ -30,6 +31,7 @@ export const Home = () => {
         <Modal />
       </section>
       <Projects />
+      <Body/>
       <Footer />
     </>
   );

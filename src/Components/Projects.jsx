@@ -18,7 +18,7 @@ export const Projects = () => {
       <div className="container">
         <div className="row owl-theme">
           <h1 data-aos="fade-in" className="section__title">
-            Here are some of my <span className="orange">projects</span>
+            Here are some of my <div className="orange">projects</div>
           </h1>
 
           <div data-aos="fade-up" data-aos-delay="150" className="project__list">

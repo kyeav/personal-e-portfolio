@@ -1,8 +1,7 @@
-import '../index.css'
+import "../index.css";
 import { useCallback, useContext, useRef, useState } from "react";
 import { FaEnvelope, FaSpinner, FaTimes } from "react-icons/fa";
 import { modalContext } from "../Context/ModalContext";
-import { Link } from "react-router-dom";
 import emailjs from "@emailjs/browser";
 
 export const Modal = () => {
@@ -14,8 +13,7 @@ export const Modal = () => {
   const contact = useCallback(
     (event) => {
       event.preventDefault();
-
-      // hit server
+      
       // show loading state
       setLoading(true);
 
@@ -68,13 +66,12 @@ export const Modal = () => {
             Singapore with a strong passion for developing websites with great{" "}
             <b className="orange">user experiences.</b>
             <br />I currently work on extremely difficult engineering problems
-            and learn from a team consisting of some of the most{" "}
-            <b class="orange">talented</b> and{" "}
-            <b className="orange">experienced</b> software engineers every day.
+            by enhancing my understanding of difficult programming concepts
+            including <b class="orange">responsive web development</b>,{" "}
+            <b class="orange">CSS layout</b>, <b class="orange">Promises</b>,
+            and <b class="orange">API requests</b> every day.
           </p>
-          <div className="modal__languages">
-            {/* remove this */}
-          </div>
+          <div className="modal__languages">{/* remove this */}</div>
         </div>
         <div className="modal__half modal__contact">
           <FaTimes

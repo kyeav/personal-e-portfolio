@@ -22,14 +22,9 @@ export const Nav = () => {
           />
         </figure>
         <ul className="nav__link--list">
-          <li
-            data-aos="fade-down"
-            data-aos-delay="100"
-            className="nav__link"
-            onClick={toggleModal}
-          >
-            <Link
-              to="/"
+        <li data-aos="fade-down" data-aos-delay="100" className="nav__link">
+            <a
+              href="#body"
               className="
                 nav__link--anchor
                 link__hover-effect
@@ -37,7 +32,7 @@ export const Nav = () => {
                 "
             >
               About
-            </Link>
+            </a>
           </li>
           <li data-aos="fade-up" data-aos-delay="150" className="nav__link">
             <a
