@@ -52,7 +52,7 @@ export const Footer = () => {
               Contact
             </Link>
             <a
-              href="./Tutorial Exclusive Eportfolio/Tutorial Exclusive Eportfolio/assets/David Bragg Resume.pdf"
+              href="https://docs.google.com/document/d/1ph4LJebq1baeZXD8R58dJYuYIGWF-x4EAHoka8LWE78/edit?usp=sharing"
               target="_blank"
               className="
                 footer__social--link

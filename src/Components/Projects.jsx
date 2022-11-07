@@ -16,12 +16,12 @@ export const Projects = () => {
   return (
     <section id="projects">
       <div className="container">
-        <div className="row owl-theme">
+        <div className="row">
           <h1 data-aos="fade-in" className="section__title">
             Here are some of my <div className="orange">projects</div>
           </h1>
 
-          <div data-aos="fade-up" data-aos-delay="150" className="project__list">
+          <div data-aos="fade-up" data-aos-delay="150" className="project__list owl-theme">
             <OwlCarousel {...options}>
               {projects.map((project) => {
                 return <Project {...project} key={project.id} />;

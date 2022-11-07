@@ -71,7 +71,6 @@ export const Modal = () => {
             <b class="orange">CSS layout</b>, <b class="orange">Promises</b>,
             and <b class="orange">API requests</b> every day.
           </p>
-          <div className="modal__languages">{/* remove this */}</div>
         </div>
         <div className="modal__half modal__contact">
           <FaTimes
